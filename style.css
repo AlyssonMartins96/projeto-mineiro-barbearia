@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    height: 250px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+
+
+.menu{
+    
+    height: 250px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    
+    
+}
+
+nav > ul{
+
+    
+    
+    height: 125px;
+    width: 100px;
+    
+    margin-right: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    
+
+}
+
+nav > ul:hover{
+    background-color: #333333;
+    color: white;
+    
+    
+}
+
+nav > ul > li{
+
+    list-style-type: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+        
+}
+
+main{
+    height: 1500px;
+
+}
+
+
+.parallax-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #FFF;
+    
+
+}
+
+.parallax-h1{
+    color: white;
+    font-size: 6em;
+
+
+}
+
+
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+
+}
+
+    
+
+section.module.parallax-1{
+    background-image: url("imagens/mineiro.jpg");
+}
+
+.conteudo{
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+
+}
+
+.dado{
+    height: 100px;
+    width: 150px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.pcontent{
+    text-align: center;
+
+}
+
+.fa-heart, .fa-star, .fa-thumbs-up{
+    position: absolute;
+    top: 10px;
+
+}
+
+.frase-impacto{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    
+    border: solid 1px black;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: cemter;
+}
+.frase-impacto > p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.produtos-utilizados{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.produtos{
+    height: 150px;
+    width: 100%;
+
+    
+
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frase-produtos{
+    height: 150px;
+    width: 100%;
+    border: solid 1px black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+
+
+.frase-produtos > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+   
+    
+}
+
+img{
+    margin-left: 100px;
+
+}
+
+
+
+footer{
+    height:300px;
+    width: 100%;
+    
+    text-align: center;
+    
+
+}
+
+.footer1{
+    height: 200px;
+    width: 100%;
+    background-color: #1f1e1e;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pfooter1a{
+    height: 180px;
+    width: 700px;
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Sriracha', cursive;
+    font-size: 48px;
+    text-decoration: underline;
+}
+.footer1b{
+    height: 180px;
+    width: 500px;
+    
+    color: white;
+
+    padding-left: 20px;
+
+    display: inline-block;
+    text-align: start;
+
+    
+
+    
+
+}
+
+.primeirop{
+    text-align: center;
+    font-size: 32px;
+    padding: 0;
+}
+
+.fa-map-location-dot{
+    color: #f7f7f7;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fa-map-location-dot:hover{
+    color: rgb(151, 118, 57);
+    cursor:pointer;
+}
+
+.footer2{
+    height: 100px;
+    width: 100%;
+
+    background-color: #060606;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2a{
+    height: 90px;
+    width: 300px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer2b{
+    height: 90px;
+    width: 700px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.acentral{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+    margin-left: 5px;
+
+    background-color: rgb(151, 118, 57);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.linkedin:hover{
+    background-color: #0e76a8;
+}
+
+.whatsapp:hover{
+    background-color: #25D366;
+}
+
+.facebook:hover{
+    background-color: #1877F2;
+}
+
+.instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+}
+
+.linkfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.footericon{
+
+    font-size: 24px;
+
+}
+
+
+
+.pfooter{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
