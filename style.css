@@ -410,8 +410,30 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.desenvolvedor{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(151, 118, 57);
 
+    position: relative;
+}
 
+.desenvolvedor p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 24px;
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+}
+
+.desenvolvedor p:hover{
+    color: black;
+    font-size: 32px;
+}
 
 
