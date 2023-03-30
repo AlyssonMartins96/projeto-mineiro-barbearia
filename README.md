@@ -1,2 +1,2 @@
 # projeto-mineiro-barbearia
- Site p/ Barbearia
+ Mineiro Barbearia
