@@ -10,6 +10,51 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.buscador{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+    background-color: #333333;
+
+    border-radius: 10px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+input{
+    width: 300px;
+
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 16px;
+    
+    
+}
+
+label{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    
+}
+
+button{
+    width: 45px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 20px;
+    
+   
+}
+
 header{
     height: 200px;
     width: 100%;
@@ -18,15 +63,6 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: end;
-}
-
-
-
-.input{
-    height: 50px;
-    width: 100%;
-    display: inline-block;
-    
 }
 
 .menu{
@@ -282,7 +318,12 @@ footer{
     text-align: center;
 }
 
-.espacamento{
+.espacamento-1a{
+    line-height: 3;
+
+}
+
+.espacamento-1b{
     line-height: 2.5;
 }
 

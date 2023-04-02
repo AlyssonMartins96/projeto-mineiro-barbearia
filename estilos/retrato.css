@@ -10,30 +10,13 @@
     }
 
 
+
 main{
-    height: 1400px;
-}
-
-.parallax-h1{
-    font-size: 48px;
-}
-
-
-.produtos-img{
-    
-}
-
-.produtos{
-height: 300px;
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    height: 2000px;
 }
 
 .footer1{
-    height: 200px;
+    height: 400px;
 }
 
 .footer1a{
@@ -47,6 +30,8 @@ align-items: center;
     height: 140px;
 }
 
+
+
 .footer2a, .footer2b{
     font-size: 12px;
 }
@@ -54,9 +39,6 @@ align-items: center;
 .footer2c{
     display: none;
 }
-
-
-
 
 
 }
